@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Em uma tarde chuvosa, eu encontrei um diário antigo na biblioteca da escola. Ele falava sobre uma floresta mágica repleta de criaturas fantásticas. Decidi que iria em busca desse lugar misterioso!</p>
+            <button class="btn-proximo" data-proximo="1">Começar pela Floresta Encantada</button>
+            <button class="btn-proximo" data-proximo="2">Investigar as Montanhas Sombrias</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você adentra a Floresta Encantada e logo é cercado por árvores coloridas e sons misteriosos. Ao explorar, você encontra uma pista em uma árvore iluminada.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir a luz da árvore</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar e continuar explorando</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Nas Montanhas Sombrias, você escuta rumores sobre um dragão guardião que protege um segredo. Decidido, você busca a caverna do dragão.</p>
+            <button class="btn-proximo" data-proximo="5">Enfrentar o dragão</button>
+            <button class="btn-proximo" data-proximo="6">Fugir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você se aproxima da árvore iluminada e encontra um portal mágico que te leva para uma clareira escondida na floresta.</p>
+            <button class="btn-proximo" data-proximo="7">Explorar a clareira</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Decidindo que a aventura é demais, você volta para casa. Mas a curiosidade sobre a floresta sempre o acompanha.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Na caverna do dragão, você descobre que ele guarda um livro mágico. Você pode tentar convencê-lo a compartilhar os segredos do livro.</p>
+            <button class="btn-proximo" data-proximo="8">Convencer o dragão</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Você decide que enfrentar o dragão é arriscado demais e volta para casa. Contudo, sempre se pergunta sobre o que teria descoberto.</p>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Na clareira, você encontra criaturas mágicas que o recebem de braços abertos, revelando segredos da floresta.</p>
+            <button class="btn-proximo" data-proximo="9">Aprender com as criaturas</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>O dragão, tocado por sua coragem, decide compartilhar os segredos do livro mágico com você, revelando um mapa para um tesouro escondido.</p>
+            <button class="btn-proximo" data-proximo="10">Seguir o mapa do tesouro</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Você aprende sobre as lendas da floresta e decide se tornar o protetor do lugar, dedicando sua vida a preservar sua magia.</p>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10-tesouro.png" alt="descobrindo um tesouro escondido na floresta">
+            <p>Você encontra um tesouro mágico que transforma sua vida, fazendo de você o novo guardião da floresta encantada.</p>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
